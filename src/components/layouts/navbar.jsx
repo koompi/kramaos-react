@@ -62,7 +62,7 @@ class Navbar extends Component {
                         <Link to="/">
                             <img src="/img/logo/logo-white.png" className="ui middle aligned image logo" alt="kramaos" />
                         </Link>
-                        {/* <div className="right menu navbar navbar-purple">
+                        <div className="right menu navbar navbar-purple mobile hidden">
 
                             <div className="ui pointing dropdown link item"
                                 ref={this.setWrapperRef}
@@ -88,8 +88,8 @@ class Navbar extends Component {
                                     <a className="item navbar-Koompi" href="https://lab.krama.org" target="_blank" rel="noopener noreferrer"><img src="img/icons/project.svg" alt="kramaos" /><span>Projects</span></a>
                                 </div>
                             </div>
-                        </div> */}
-                        <div className={this.state.menuIcon ? "animated menuBackIcon slideInLeft" : "animated menuBackIcon slideOutLeft"}>
+                        </div>
+                        <div className={this.state.menuIcon ? "animated mobile only menuBackIcon slideInLeft" : "animated mobile only menuBackIcon slideOutLeft"}>
                             <div className= "ui left vertical inverted labeled icon sidebar menu overlay visible ">
                                 <div className="item">
                                     <div className="header">Products</div>
@@ -105,7 +105,7 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <img src={this.state.menuIcon ? "img/close.svg" : "img/menu.svg"} className="menuIcon" onClick={this.handleMenuIcon} alt="menu-icon" />
+                        <img src={this.state.menuIcon ? "img/close.svg" : "img/menu.svg"} className="menuIcon mobile only" onClick={this.handleMenuIcon} alt="menu-icon" />
 
                     </div>
                 </div>

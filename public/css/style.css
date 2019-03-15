@@ -459,6 +459,7 @@ a:hover{
   animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  /* display: none; */
 }
 .shadowEvent{
   box-shadow: 0 0 40px 0 rgba(197, 197, 197, 0.85);
@@ -662,6 +663,7 @@ a:hover{
     text-align:justify;
     font-size: 16px !important;
   }
+  
 
   .ui.visible.left.overlay.sidebar {
       -webkit-transform: translate3d(0,0,0);
