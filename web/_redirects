@@ -4,3 +4,4 @@
 # Redirect default Netlify subdomain to primary domain
 http://kramaos.netlify.com/* http://www.kramaos.org/:splat 301!
 http://kramaos.org/* http://www.kramaos.org/:splat 301!
+http://*.kramaos.org/* http://kosmos.kramaos.org/:splat 301!
