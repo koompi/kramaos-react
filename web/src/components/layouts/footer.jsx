@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,10 +15,15 @@ const Footer = () => {
         <p>Copyright © 2018 Koompi. All rights reserved</p>
         <p className="brainchild">A brainchild of SmallWorld Venture</p>
         <p className="privacy">
-          <a href="https://koompi.com/">Hardware KOOMPI </a>
-          <a href="/feature"> OS KOSMOS</a>
+          <a href="https://koompi.com/" rel="noopener noreferrer">
+            KOOMPI LAPTOP{" "}
+          </a>
+          <Link to="/kosmos"> KOSMOS OS</Link>
           <a href="/about"> Question and Answer</a>
-          <a href="/retailers"> Projects</a>
+          <a href="https://github.com/Koompi" rel="noopener noreferrer">
+            {" "}
+            Projects
+          </a>
         </p>
       </center>
     </div>

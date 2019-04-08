@@ -121,7 +121,7 @@ class Navbar extends Component {
                   </a>
                   <a
                     className="item navbar-Koompi"
-                    href="https://lab.krama.org"
+                    href="https://github.com/Koompi"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -146,6 +146,7 @@ class Navbar extends Component {
                       className="item"
                       href="https://koompi.com/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Hardware-Koompi
                     </a>
@@ -161,6 +162,7 @@ class Navbar extends Component {
                       className="item"
                       href="https://forum.koompi.com/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Question and Answer
                     </a>
@@ -168,6 +170,7 @@ class Navbar extends Component {
                       className="item"
                       href="https://www.git.kramaos.org/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Projects
                     </a>
