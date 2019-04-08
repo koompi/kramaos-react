@@ -87,11 +87,11 @@ class Navbar extends Component {
                     rel="noopener noreferrer"
                   >
                     <img src="img/icons/koompi-stroke.svg" alt="kramaos" />
-                    <span>Hardware-KOOMPI</span>
+                    <span>KOOMPI LAPTOP</span>
                   </a>
                   <Link className="item navbar-Koompi" to="/kosmos">
                     <img src="img/icons/kosmos-stroke.svg" alt="kramaos" />
-                    <span>OS-KOSMOS</span>
+                    <span>KOSMOS OS</span>
                   </Link>
                 </div>
               </div>
