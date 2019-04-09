@@ -15,12 +15,20 @@ const Footer = () => {
         <p>Copyright © 2018 Koompi. All rights reserved</p>
         <p className="brainchild">A brainchild of SmallWorld Venture</p>
         <p className="privacy">
-          <a href="https://koompi.com/" rel="noopener noreferrer">
+          <a
+            href="https://koompi.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             KOOMPI LAPTOP{" "}
           </a>
           <Link to="/kosmos"> KOSMOS OS</Link>
           <a href="/about"> Question and Answer</a>
-          <a href="https://github.com/Koompi" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Koompi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
             Projects
           </a>

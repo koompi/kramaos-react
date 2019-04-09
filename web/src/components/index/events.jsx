@@ -9,7 +9,7 @@ function strip_html_tags(str) {
 
 class Events extends Component {
   state = {
-    data: []
+    data: null
   };
   async componentDidMount() {
     await axios
@@ -21,14 +21,15 @@ class Events extends Component {
       });
   }
   render() {
-    return (
+    return !this.state.data ? (
+      "loading..."
+    ) : (
       <React.Fragment>
         <div className="ui container">
           <center>
             <h1 className="kosmosConent">Recently Event Blog</h1>
           </center>
           <div className="ui stackable three column grid">
-            {console.log(this.state.data)}
             {this.state.data.slice(0, 6).map(d => (
               <div className="column blur" key={d.pubDate}>
                 <a target="_blank" rel="noopener noreferrer" href={d.link}>
@@ -52,7 +53,7 @@ class Events extends Component {
                           : d.title.substring(0, 60)}
                       </h4>
                       <p className="index-description">
-                        {strip_html_tags(d.content.substring(0, 130) + "...")}
+                        {strip_html_tags(d.content.substring(0, 100) + "...")}
                       </p>
                       {/* <p>
                         {d.content.length > 110

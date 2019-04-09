@@ -148,10 +148,10 @@ class Navbar extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Hardware-Koompi
+                      Koompi Laptop
                     </a>
                     <Link className="item" to="/kosmos">
-                      OS-KOSMOS
+                      KOSMOS OS
                     </Link>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ class Navbar extends Component {
                     </a>
                     <a
                       className="item"
-                      href="https://www.git.kramaos.org/"
+                      href="https://github.com/Koompi"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
