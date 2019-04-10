@@ -14,9 +14,10 @@ const Banner = () => {
           <div className="ui container">
             <div className="bannerContainer" />
             <h1 className="bannerTitle">
-              KOSMOS v2.0.0, a multipurpose and user-friendly Linux operating
-              system distribution, driven by a mission to provide tools for the
-              next generation of engineers, problem solvers and discovers.
+              KOSMOS is a fully customized and self-customizeable Cambodia based
+              open-source operating system software solution for up and coming
+              engineers, inventors, organizers, developers and basically free
+              thinkers in a modern day post-Microsoft world.
             </h1>
           </div>
         </div>
